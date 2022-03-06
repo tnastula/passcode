@@ -122,7 +122,7 @@ namespace passcode
 
             for (int currentLength = 1; currentLength < Length; currentLength++)
             {
-                List<Route> currentPassRoutes = new List<Route>(routes.Count + 8);
+                List<Route> currentPassRoutes = new List<Route>(routes.Count * 8);
 
                 foreach (Route route in routes)
                 {
